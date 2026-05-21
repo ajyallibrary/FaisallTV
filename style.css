@@ -137,11 +137,11 @@ nav.scrolled { box-shadow: 0 4px 30px rgba(14,165,233,0.1); }
   margin-bottom: 0.75rem;
   animation: fadeInDown 0.9s ease;
 }
-.hero-name span { color: var(--sky); }
+.hero-name span { color: #ffffff; }
 
 .hero-title {
   font-size: clamp(1rem, 2vw, 1.25rem);
-  color: #94a3b8;
+  color: #ffffff;
   font-weight: 500;
   margin-bottom: 1.5rem;
   animation: fadeInDown 1s ease;
@@ -149,7 +149,7 @@ nav.scrolled { box-shadow: 0 4px 30px rgba(14,165,233,0.1); }
 
 .hero-desc {
   font-size: 0.95rem;
-  color: #cbd5e1;
+  color: #ffffff;
   line-height: 1.8;
   margin-bottom: 2.5rem;
   animation: fadeInDown 1.1s ease;
@@ -162,9 +162,9 @@ nav.scrolled { box-shadow: 0 4px 30px rgba(14,165,233,0.1); }
 .stat { text-align: center; }
 .stat-num {
   font-size: 2rem; font-weight: 900;
-  color: var(--sky); display: block; line-height: 1;
+  color: #ffffff; display: block; line-height: 1;
 }
-.stat-label { font-size: 0.8rem; color: #94a3b8; }
+.stat-label { font-size: 0.8rem; color: #ffffff; }
 
 .hero-actions {
   display: flex; gap: 1rem; flex-wrap: wrap;
