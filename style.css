@@ -52,18 +52,12 @@ nav {
 nav.scrolled { box-shadow: 0 4px 30px rgba(14,165,233,0.1); }
 
 .nav-logo {
-  font-size: 1.3rem; 
-  font-weight: 800;
+  font-size: 1.3rem; font-weight: 800;
   color: var(--navy);
   text-decoration: none;
   letter-spacing: -0.5px;
 }
-
-/* أضف هذا السطر الجديد لزيادة المسافة بين فيصل وبن أحمد */
-.nav-logo span {
-  color: var(--sky);
-  margin-right: 8px; /* زيادة المسافة بين الكلمتين */
-}
+.nav-logo span { color: var(--sky); }
 
 .nav-links {
   display: flex; gap: 0.25rem; list-style: none;
@@ -139,7 +133,7 @@ nav.scrolled { box-shadow: 0 4px 30px rgba(14,165,233,0.1); }
 .hero-name {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.35;
   margin-bottom: 0.75rem;
   animation: fadeInDown 0.9s ease;
 }
